@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="main-head">		
+		<div id="logo">
+			<p>Smart</p>
+		</div>
+		<button class="button menu">			
+		</button>
+		<ul class="dropdown">
+			<li>
+				<a href="">Menu1</a>
+			</li>
+			<li>
+				<a href="">Menu2</a>
+			</li>
+			<li>
+				<a href="">Menu3</a>
+			</li>
+			<li>
+				<a href="">Menu4</a>
+			</li>
+		</ul>
+		<div id="textAtHead">
+			<p id="headHeader"><samp>Smart</samp> Agency Landign Page</p>
+			<p id="headText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus blanditiis ipsum consectetur culpa illum excepturi praesentium, quisquam voluptate temporibus officiis ratione vel officia modi architecto labore, cum dolor pariatur recusandae?</p>
+		</div>
+		<form action="server">
+			<p><samp>Send</samp> A Message</p>
+			<input type="text"  placeholder="Your name..." id="textName">
+			<input type="text" placeholder="Your email..." id="textMail">
+			<textarea placeholder="Your message..." id="textMessage" cols="1" rows="3"></textarea>
+			<input type="submit" value="Send Message" id="messageButton">
+		</form>
+	</header>
+
+	<div id="WorkProcess">
+		<div id="textAtHead">
+			<p id="headHeader"><samp>Working</samp> Process</p>
+			<p id="headText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, animi, culpa. Voluptatem ad voluptas, veniam quaerat est, nisi labore soluta, officiis ducimus impedit temporibus. Debitis fugit blanditiis sit sunt molestias. </p>
+		</div>
+		<div id="knowMore">
+			<div id="magnet" class="infoBlock">
+				<img src="img\magnet.png" alt="magnet_logo">
+				<p class="headWorkProc">Koc Koi Tomi</p>
+				<p class="contentWorkProc">Lorem ipsum dolor sit amet, consectetur </p>
+				<button id="knowMoreBtn">Know more</button>
+			</div>
+			<!-- <button>Know more</button> -->
+			<div id="bug" class="infoBlock">
+				<img src="img\bug.png" alt="">
+				<p class="headWorkProc">Koimona Set</p>
+				<p class="contentWorkProc">Lorem ipsum dolor sit amet, consectetur </p>
+				<button id="knowMoreBtn">Know more</button>
+			</div>
+			<div id="tech" class="infoBlock">
+				<img src="img\tech.png" alt="">
+				<p class="headWorkProc">Setting Koire</p>
+				<p class="contentWorkProc">Lorem ipsum dolor sit amet, consectetur </p>
+				<button id="knowMoreBtn">Know more</button>
+			</div>
+			<div id="camera" class="infoBlock">
+				<img src="img\camera.png" alt="">
+				<p class="headWorkProc">Ko Image Lara</p>
+				<p class="contentWorkProc">Lorem ipsum dolor sit amet, consectetur </p>
+				<button id="knowMoreBtn">Know more</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="FeaturedWorks">
+		<div id="textAtHead">
+			<p id="headHeader"><samp>Featured</samp> Works</p>
+			<p id="headText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, animi, culpa. Voluptatem ad voluptas, veniam quaerat est, nisi labore soluta, officiis ducimus impedit temporibus. Debitis fugit blanditiis sit sunt molestias. </p>
+		</div>
+		<table class="table">
+			<tr>
+				<td><img src="img\lemur.jpg" alt=""></td>
+				<td><img src="img\lemur.jpg" alt=""></td>
+				<td><img src="img\lemur.jpg" alt=""></td>
+			</tr>
+			<tr>
+				<td><img src="img\lemur.jpg" alt=""></td>
+				<td><img src="img\lemur.jpg" alt=""></td>
+				<td><img src="img\lemur.jpg" alt=""></td>
+			</tr>
+			<tr>
+				<td><img src="img\lemur.jpg" alt=""></td>
+				<td><img src="img\lemur.jpg" alt=""></td>
+				<td><img src="img\lemur.jpg" alt=""></td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="Service">
+		<div id="textAtHead">
+			<p id="headHeader"><samp>Service</samp> We Provide</p>
+			<p id="headText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique iure distinctio, aliquid est aut veritatis totam labore nemo deleniti.  </p>
+		</div>
+		<div id="title">
+			<div class="miniMenu">
+				<div tabindex="-1" class="icons" id="diagramm">
+					<img src="img\service\diagramm.png" alt="diagramm">
+				
+					<div class="serviceContent" id="diagrammText">
+					<p class="text" id="head">1Modern App Design</p>
+					<img id="orangeUndrLine" src="img\service\line.png" alt="orange_undr_line">
+					<p class="text" id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas accusamus odio nulla ut iure quos beatae earum molestiae, aperiam nihil ex reprehenderit mollitia rem voluptatem, in odit nostrum atque, distinctio.</p>
+
+					<div id="win" style="display:none;">
+						<div class="overlay"></div>
+						<div class="visible">
+							<h2>Заголовок окна</h2>
+							<div class="content">
+								<p>Содержание</p>
+								<p>Модальное окно фиксированной ширины</p>
+							</div>
+							<button type="button" onClick="getElementById('win').style.display='none';">закрыть</button>
+						</div>
+					</div>
+
+					<button id="knowMoreBtn" type="button" onClick="getElementById('win').removeAttribute('style');">Know more</button>
+					</div>
+				</div>
+
+
+				<div tabindex="-1" class="icons" id="tech">
+					<img src="img\service\tech.png" alt="tech">
+				
+					<div class="serviceContent" id="techText">
+					<p class="text" id="head">2Modern App Design</p>
+					<img id="orangeUndrLine" src="img\service\line.png" alt="orange_undr_line">
+					<p class="text" id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas accusamus odio nulla ut iure quos beatae earum molestiae, aperiam nihil ex reprehenderit mollitia rem voluptatem, in odit nostrum atque, distinctio.</p>
+					<button id="knowMoreBtn">Know more</button>
+					</div>
+
+				</div>
+
+				<div tabindex="-1" class="icons" id="loope">
+					<img src="img\service\loope.png" alt="loope">
+				
+					<div class="serviceContent" id="loopeText">
+					<p class="text" id="head">3Modern App Design</p>
+					<img id="orangeUndrLine" src="img\service\line.png" alt="orange_undr_line">
+					<p class="text" id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas accusamus odio nulla ut iure quos beatae earum molestiae, aperiam nihil ex reprehenderit mollitia rem voluptatem, in odit nostrum atque, distinctio.</p>
+					<button id="knowMoreBtn">Know more</button>
+					</div>
+
+				</div>
+
+
+				<div tabindex="-1" class="icons" id="circle">
+					<img src="img\service\diagramm.png" alt="circle">								
+				
+					<div class="serviceContent" id="circleText">
+					<p class="text" id="head">4Modern App Design</p>
+					<img id="orangeUndrLine" src="img\service\line.png" alt="orange_undr_line">
+					<p class="text" id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas accusamus odio nulla ut iure quos beatae earum molestiae, aperiam nihil ex reprehenderit mollitia rem voluptatem, in odit nostrum atque, distinctio.</p>
+					<button id="knowMoreBtn">Know more</button>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="serviceImage">
+				<img src="img\apple-watch-mockup.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div id="Team">
+		<div id="textAtHead">
+			<p id="headHeader"><samp>Team</samp> Chinen & Skills</p>
+			<p id="headText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique iure distinctio, aliquid est aut veritatis totam labore nemo deleniti.  </p>
+		</div>
+		<div class="staff">
+			<div class="staffPhoto">
+				<img id="photo" src="" alt="">
+				<div class="overlay">
+					<div class="skills">
+						<p>UI/UX Design</p>
+						<img id="scale1" src="img\team\design.png" alt="">
+						<p>English</p>
+						<img id="scale2" src="img\team\eng.png" alt="">
+						<p>Communication</p>
+						<img id="scale3" src="img\team\comm.png" alt="">
+					</div>
+					<div class="staffInfo">
+						<p class="nameInside">Benny Benassi</p>
+						<p class="positionInside">UI/UX Parena</p>						
+					</div>
+					<div class="social">
+						<a id="twitter" href="http://twitter.com">
+							<img src="img\team\twit.png" alt="">
+						</a>
+						<a id="facebook" href="http://facebook.com">
+							<img src="img\team\facebook.png" alt="">
+						</a>
+						<a id="twitter" href="http://twitter.com">
+							<img src="img\team\twit.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="staffInfo">
+				<p class="name">Benny Benassi</p>
+				<p class="position">UI/UX Parena</p>
+			</div>			
+		</div>
+		<div class="staff">
+			<div class="staffPhoto">
+				<img id="photo" src="" alt="">
+				<div class="overlay">
+					<div class="skills">
+						<p>UI/UX Design</p>
+						<img id="scale1" src="img\team\design.png" alt="">
+						<p>English</p>
+						<img id="scale2" src="img\team\eng.png" alt="">
+						<p>Communication</p>
+						<img id="scale3" src="img\team\comm.png" alt="">
+					</div>
+					<div class="staffInfo">
+						<p class="nameInside">Benny Benassi</p>
+						<p class="positionInside">UI/UX Parena</p>						
+					</div>
+					<div class="social">
+						<a id="twitter" href="http://twitter.com">
+							<img src="img\team\twit.png" alt="">
+						</a>
+						<a id="facebook" href="http://facebook.com">
+							<img src="img\team\facebook.png" alt="">
+						</a>
+						<a id="twitter" href="http://twitter.com">
+							<img src="img\team\twit.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="staffInfo">
+				<p class="name">Benny Benassi</p>
+				<p class="position">UI/UX Parena</p>
+			</div>			
+		</div>
+		<div class="staff">
+			<div class="staffPhoto">
+				<img id="photo" src="" alt="">
+				<div class="overlay">
+					<div class="skills">
+						<p>UI/UX Design</p>
+						<img id="scale1" src="img\team\design.png" alt="">
+						<p>English</p>
+						<img id="scale2" src="img\team\eng.png" alt="">
+						<p>Communication</p>
+						<img id="scale3" src="img\team\comm.png" alt="">
+					</div>
+					<div class="staffInfo">
+						<p class="nameInside">Benny Benassi</p>
+						<p class="positionInside">UI/UX Parena</p>						
+					</div>
+					<div class="social">
+						<a id="twitter" href="http://twitter.com">
+							<img src="img\team\twit.png" alt="">
+						</a>
+						<a id="facebook" href="http://facebook.com">
+							<img src="img\team\facebook.png" alt="">
+						</a>
+						<a id="twitter" href="http://twitter.com">
+							<img src="img\team\twit.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="staffInfo">
+				<p class="name">Benny Benassi</p>
+				<p class="position">UI/UX Parena</p>
+			</div>			
+		</div>		
+	</div>
+
+	<div class="clientsSaid">
+		<div id="textAtHead">
+			<p id="headHeader"><samp>Clients</samp> Said</p>
+			<p id="headText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, cupiditate, voluptas. Blanditiis cumque asperiores tempora perspiciatis quod qui nostrum doloribus.</p>
+		</div>
+		<div class="slider">
+		<div class="slide-list">
+			<div class="slide-wrap">
+				<div class="slide-item">
+					<img width="50" height="50" src="img/photo/img-1.jpg" alt="" />
+					<span class="slide-title">Minerva McGonagall</span>
+					<p>Feedback, long long river was around us.</p>
+				</div>
+				<div class="slide-item">
+					<img width="50" height="50" src="img/photo/img-2.jpg" alt="" />
+					<span class="slide-title">Albus Dumbledore</span>
+					<p>Feedback, long long river was around us.</p>
+				</div>
+				<div class="slide-item">
+					<img width="50" height="50" src="img/photo/img-3.jpg" alt="" />
+					<span class="slide-title">Severus Snape</span>
+					<p>Feedback, long long river was around us.</p>
+				</div>
+				<div class="slide-item">
+					<img width="50" height="50" src="img/photo/img-4.jpg" alt="" />
+					<span class="slide-title">Lord Voldemort</span>
+					<p>Feedback, long long river was around us.</p>
+				</div>
+				<div class="slide-item">
+					<img width="50" height="50" src="img/photo/img-5.jpg" alt="" />
+					<span class="slide-title">Rubeus Hagrid</span>
+					<p>Feedback, long long river was around us.</p>
+				</div>				
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="navy prev-slide"></div>
+		<div class="navy next-slide"></div>
+		<div class="auto play"></div>
+		</div>
+		<div class="social"> 			
+			<a href="https://www.linkedin.com/" id="LinkedIn"></a>
+			<a href="https://dribbble.com/" id="drible"></a>
+			<a href="https://envato.com/" id="envato"></a>
+		</div>
+	</div>
+	
+	<footer>
+
+		<div id="contactUsWin" style="display:none;">
+			<div class="overlay"></div>
+			<div class="visible">
+				<h2>Заголовок окна</h2>
+				<div class="content">
+					<p>Содержание</p>
+					<p>Модальное окно фиксированной ширины</p>
+				</div>
+				<button type="button" onClick="getElementById('contactUsWin').style.display='none';">закрыть</button>
+			</div>
+		</div>
+
+		<button id="contactUs" type="button" onClick="getElementById('contactUsWin').removeAttribute('style');" >Contact Us
+		</button>
+
+		<div class="social">
+			<a href="http://facebook.com"><div id="facebook"></div></a>
+			<a href="http://behance.com"><div id="behance"></div></a>
+			<a href="http://twitter.com"><div id="twitter"></div></a>
+			<a href="http://dribbble.com"><div id="drible"></div></a>
+			<div id="copyright">
+				<p>&#169 Created by<br>
+				<a id="vkLink" href="http://vk.com/moramar">Parvan Artem</a></p>
+			</div>
+		</div>
+	</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>	
+<script src="slider.js"></script>
+</body>
+</html>
+
